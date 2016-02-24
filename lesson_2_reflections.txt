@@ -17,3 +17,7 @@ Branches are helpful when you want to allow for multiple changes to your repo in
 How do the diagrams help you visualize the branch structure?
 
 Diagrams show you the parent of each commit so that you can see the reach of each branch
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches combines the commits from both branches in timestamp order. It's represented in the diagram to show that all the commits can be reached in the merge.
