@@ -5,3 +5,15 @@ When you initialise a repo, git creates a new hidden folder that makes all the f
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area allows you to choose which files to transfer from the WD to the repo in the current commit. The value in using it is in having control over which logical change is contained in each commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Use the git diff --staged to make sure the potential commit only has a logical in it.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches are helpful when you want to allow for multiple changes to your repo in different directions. Branches help by allowing you to easily switch between the named different directions and also easily switch back to the master branch.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams show you the parent of each commit so that you can see the reach of each branch
