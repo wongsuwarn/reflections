@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialise a repo, git creates a new hidden folder that makes all the files in the folder become a git repo
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area allows you to choose which files to transfer from the WD to the repo in the current commit. The value in using it is in having control over which logical change is contained in each commit.
