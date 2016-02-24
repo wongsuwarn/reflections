@@ -18,3 +18,6 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 I would probably use Dropbox. It might be easier to collaborate with others who do not use git but more difficult to merge independent local changes.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You would want to make changes in a separate branch when the master is stable and you want to try something that is new and/or might break. The branch approach has the benefit of preserving a master version that can be further developed in a different direction to the branch by you or another person. However, it can make the project more complex especially when merging back with the master, if the master has changed significantly since the branch happened.
